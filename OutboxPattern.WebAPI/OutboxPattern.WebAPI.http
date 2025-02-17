@@ -1,0 +1,11 @@
+@OutboxPattern.WebAPI_HostAddress = http://localhost:5128
+
+GET {{OutboxPattern.WebAPI_HostAddress}}/orders/
+Accept: application/json
+
+###
+
+POST {{OutboxPattern.WebAPI_HostAddress}}/orders/
+Accept: application/json
+
+###
