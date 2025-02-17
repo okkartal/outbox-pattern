@@ -1,6 +1,6 @@
 namespace OutboxPattern.WebAPI.Dtos;
 
-public abstract record CreateOrderDto(
+public sealed record CreateOrderDto(
     string ProductName,
     int Quantity,
     decimal Price,
